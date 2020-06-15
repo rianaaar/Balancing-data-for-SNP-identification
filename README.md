@@ -8,7 +8,7 @@ Metode yang digunakan adalah Support Vector Machine (SVM) menggunakan formula C-
 Distribusi kelas tidak seimbang sehingga perlu dilakukan penyeimbangan data.
 Pada analisis ini digunakan teknik Over-Under-sampling yaitu Random Over-Sampling Examples (ROSE) menggunakan package ROSE di RStudio.
 Perbedaan distribusi kelas sebelum dan sebelum sampling dapat dilihat pada Gambar.
-![Alt Text](url)
+![Alt Text](https://user-images.githubusercontent.com/46989222/84623925-8985c300-af0a-11ea-957e-e4554e86d2d9.PNG)
 ### *Modeling*
 Training data dilakukan menggunakan package e1071 untuk SVM dengan traincontrol 10-fold cross validation.
 Sebelumnya dilakukan pembagian data sebesar 70% untuk data latih dan 30% untuk data tes.
